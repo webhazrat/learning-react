@@ -23,3 +23,13 @@ function itemsReducer(items, action){
     }
   }
 }
+
+// useContext
+const Context = createContext(initialValue);
+
+const val = useContext(Context);
+<Context.Provider value={1}>
+  {children}  
+</Context.Provider>
+
+const val = useContext(Context);
