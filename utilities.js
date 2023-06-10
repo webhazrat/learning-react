@@ -28,7 +28,7 @@ function itemsReducer(items, action){
 const Context = createContext(initialValue);
 
 const val = useContext(Context);
-<Context.Provider value={1}>
+<Context.Provider value={val}>
   {children}  
 </Context.Provider>
 
