@@ -2,4 +2,8 @@
 
 useEffect(() => {
   // do something
+
+  return () => { 
+    //cleanup
+  }
 }, [dependencies])
