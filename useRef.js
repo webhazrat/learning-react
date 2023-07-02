@@ -3,3 +3,5 @@
 const ref = useRef(null);
 
 ref.current.[dom-functions]
+
+// We can set any value to ref.current
