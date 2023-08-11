@@ -20,13 +20,17 @@ export default function PrivateOutlet(){
   </Routes>
 </BrowserRouter>;
 
+// components
+// Link - to path navigate with state
+<Link to='/pathName' state={{something}} />
+
 // hooks
 // useParams - to access value from params
 const { paramName } = useParams();
 
 // useNavigate - to navigate/redirect to path with function
 const navigate = useNavigate();
-navigate('/pathname', {state: anything });
+navigate('/pathName', {state: anything });
 
 // useLocation - receive state from navigate state
 const { state } = useLocation();
