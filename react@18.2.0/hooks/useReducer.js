@@ -1,17 +1,18 @@
 // useReducer
-const [items, dispatch] = useReducer(itemsReducer, initialItems);
+const [state, dispatch] = useReducer(reducer, {count: 0});
 
+// dispatch update state
 function handler() {
   dispatch({
-    type: "add",
-    items: [],
+    type: "INCREMENT",
   });
 }
 
-function itemsReducer(items, action) {
+// reducer function receive state and dispatch action
+function itemsReducer(state, action) {
   switch (action.type) {
-    case "add": {
-      return [];
+    case "INCREMENT": {
+      return {count: state + 1};
     }
   }
 }
