@@ -9,7 +9,7 @@ function handler() {
 }
 
 // reducer function receive state and dispatch action
-function itemsReducer(state, action) {
+function reducer(state, action) {
   switch (action.type) {
     case "INCREMENT": {
       return {count: state + 1};
