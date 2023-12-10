@@ -12,7 +12,7 @@ function handler() {
 function reducer(state, action) {
   switch (action.type) {
     case "INCREMENT": {
-      return {count: state + 1};
+      return {count: state.count + 1};
     }
   }
 }
