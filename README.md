@@ -8,3 +8,7 @@
 
 # Tailwind UI Library
 1. [Shadcn UI](https://ui.shadcn.com/)
+
+# Next.js Public Route And Private Route
+1. [Middleware](https://medium.com/@suhag_alamin/safeguarding-user-role-based-private-routes-in-next-js-13-or-14-app-router-a-step-by-step-guide-5ab5d4b4c0fb)
+2. [HOC Pattern](https://medium.com/@sassenthusiast/how-to-create-protected-routes-using-react-next-js-and-aws-amplify-f7a1d0d0fc26)
